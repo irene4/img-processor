@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>pixels</title>
+	</head>
+	<body>
+		<div id="main">
+			<input type="file" id="upload" />
+
+			<canvas id="canvas1"></canvas>
+			<script src="index.js"></script>
+
+			<div class="buttons">
+				<button class="textBtn" onclick="document.getElementById('upload').click()">Import</button>
+				<div class="circleBtn">
+					<button onClick="contrast(0.98)">-</button>
+					Contrast
+					<button onClick="contrast(1.02)">+</button>
+				</div>
+				<br />
+				<div class="circleBtn">
+					<button onClick="brightness(-4)">-</button>
+					Brightness
+					<button onClick="brightness(4)">+</button>
+				</div>
+				<br />
+				<div class="circleBtn">
+					<button onClick="saturation(88)">-</button>
+					Saturation
+					<button onClick="saturation(112)">+</button>
+				</div>
+				<button class="textBtn" onClick="invert()">invert</button>
+				<button class="textBtn" onClick="restore()">restore</button>
+			</div>
+		</div>
+	</body>
+</html>

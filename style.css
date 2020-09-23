@@ -1,0 +1,50 @@
+#main {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+	font-family: futura;
+	color: rgb(65, 68, 255);
+	background-image: url(https://svgshare.com/i/9Eo.svg);
+}
+#upload {
+	visibility: hidden;
+}
+#canvas1 {
+	position: absolute;
+	height: 85vh;
+	left: 50vw;
+	top: 50vh;
+	transform: translate(-50%, -45%);
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: rgb(136, 237, 241) 1.5px 1.5px;
+}
+.buttons button {
+	border: 0px solid transparent;
+	font-weight: bold;
+	position: relative;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+.circleBtn button {
+	color: rgb(65, 68, 255);
+	background: rgb(136, 237, 241);
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	box-shadow: rgb(65, 68, 255) 2px 2px;
+}
+.textBtn {
+	padding: 6px;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: rgb(136, 237, 241);
+	background: rgb(65, 68, 255);
+	border-radius: 8px;
+	box-shadow: rgb(136, 237, 241) 2.5px 2.5px;
+}
